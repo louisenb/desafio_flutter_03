@@ -38,12 +38,19 @@ $ flutter run
   <tr>
     <td>Tela de Onboarding</td>
      <td>Tela de Categorias</td>
-     <td>Tela de Destinos</td>
-    <td>Tela de Cadastro Destinos</td>
   </tr>
   <tr>
     <td><img src="./screenshots/tela_flutter_01.png" width=270 height=480></td>
     <td><img src="./screenshots/tela_flutter_02.png" width=270 height=480></td>
+  </tr>
+ </table>
+
+<table>
+  <tr>
+     <td>Tela de Destinos</td>
+    <td>Tela de Cadastro Destinos</td>
+  </tr>
+  <tr>
     <td><img src="./screenshots/tela_flutter_03.png" width=270 height=480></td>
     <td><img src="./screenshots/tela_flutter_04.png" width=270 height=480></td>
   </tr>
