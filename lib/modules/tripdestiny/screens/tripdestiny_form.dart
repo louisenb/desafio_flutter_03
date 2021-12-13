@@ -20,7 +20,8 @@ class _TripDestinyFormState extends State<TripDestinyForm> {
   Widget build(BuildContext context) {
     final bloc = Provider.of<TripDestinyBloc>(context);
     final model = new TripDestinyDestiny.empty();
-    
+    final lastSelectedCategory = bloc.tripDestinies.length > 0 ? bloc.tripDestinies.last.category : null;
+
     return Scaffold(
         appBar: AppBar(
           title: Text('Cadastrar destino',
@@ -86,6 +87,7 @@ class _TripDestinyFormState extends State<TripDestinyForm> {
                           child: Text(category.name),
                         );
                       }).toList(),
+                      value: lastSelectedCategory,
                       onChanged: (newValue) {
                         model.category = newValue as String;
                       },
